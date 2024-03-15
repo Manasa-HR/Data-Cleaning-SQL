@@ -153,7 +153,7 @@ Select *,
     UniqueID
     ) row_num
 from sqlproject.dbo.nashvillehousing1
----order by ParcelID
+---order by ParcelID 
 )
 Select *  
 From RowNumCTE
